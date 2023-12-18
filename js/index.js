@@ -16,7 +16,7 @@ btn.addEventListener("click", (e) => {
       password: password,
     });
 
-    let response = await fetch("http://localhost:8081/api/v1/user/login", {
+    let response = await fetch("https://zygalbackend.onrender.com/api/v1/user/login", {
       method: "POST",
       body: bodyContent,
       headers: headersList,
