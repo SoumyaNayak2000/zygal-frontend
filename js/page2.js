@@ -1,6 +1,6 @@
 // Function to set a cookie with a given name, value
 function setCookie(name, value) {
-  document.cookie = `${name}=${value};path=/frontend/pages/page2.html`;
+  document.cookie = `${name}=${value};path=/page2.html`;
 }
 
 // Function to get the value of a cookie by name
@@ -40,7 +40,7 @@ function searchData() {
 // Function to clear all cookies related to "/page2.html"
 function clearCookies() {
   document.cookie =
-    "userData=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/frontend/pages/page2.html;";
+    "userData=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/page2.html;";
 }
 
 // function to prevent back after logout
